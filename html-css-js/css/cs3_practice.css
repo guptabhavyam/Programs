@@ -1,0 +1,53 @@
+h1{
+    background-color:aqua;
+    color:coral; 
+}
+h2{
+    background-color:darkblue;
+    color:rgb(255, 255, 255);
+}
+.bgcol{
+    color:gold;
+    border: -3px darkseagreen;
+    background-color:firebrick;
+}
+.talign{
+    text-align:center;
+}
+#first{
+    color:green;
+}
+#second{
+    color:blue;
+}
+#bgpic{
+    background-image: url("./images/pink-flowers.jpg");
+}
+p{
+    background-image: url("./images/International_Flower_Day_2048x.jpeg");
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat ;
+    background-size: inherit;
+    overflow: hidden;
+    position:absolute ;
+}
+p1{
+    background-color: aqua;
+    overflow:hidden;
+}
+.inpara{
+    height: 100px;
+    width:100px ;
+    background-color:lawngreen ;
+    
+    margin: 10px 200px 300px 100px;
+           /top right bottom left/
+padding: 100px 200px;
+}
+#imgset{
+    height: 100px;
+    width: 100px;
+    position:sticky;
+    display:inline;
+}

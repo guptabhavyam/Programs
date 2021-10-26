@@ -1,0 +1,13 @@
+.first{
+    border: : 2px solid red;
+}
+.top{
+    display: flex; 
+}
+.second{
+    border: 2px;
+
+}
+.third{
+    border: 2px;
+}
