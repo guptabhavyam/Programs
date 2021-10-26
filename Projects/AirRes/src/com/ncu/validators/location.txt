@@ -1,0 +1,2 @@
+Note:- This file if for the only purpose of providing the location to the getLocation function.
+	This writing of this file is of no singnificance to the code in any other way.
