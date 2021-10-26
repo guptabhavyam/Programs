@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="/css/reportcard.css" />
+</head>
+
+<body>
+    <form action="#" id="myform">
+        <div class="form1">
+            <br />
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" />
+            <label for="roll">&emsp; &emsp; &emsp; Roll No:</label>
+            <input type="text" name="roll" id="roll" />
+            <br><br>
+            <label for="sem">Sem: &ensp;</label>
+            <input type="text" name="sem" id="sem" />
+            <label for="branch">&emsp; &emsp; &emsp; Branch:</label>
+            <input type="text" name="branch" id="branch" />
+
+            <h1>Marks</h1>
+        </div>
+        <div class="details1">
+            <label for="c1">Course 1:</label>
+            <input type="text" name="c1" id="c1" class="course" />
+            <label for="c2">&emsp; Course 2:</label>
+            <input type="text" name="c2" id="c2" class="course" />
+            <label for="c3">&emsp; Course 3:</label>
+            <input type="text" name="c3" id="c3" class="course" />
+            <label for="c4">&emsp; Course 4:</label>
+            <input type="text" name="c4" id="c4" class="course" />
+            <label for="c5">&emsp; Course 5:</label>
+            <input type="text" name="c5" id="c5" class="course" />
+            <br> <br>
+            <div class="btn"><button id="btnn">Submit</button></div>
+        </div>
+
+    </form>
+    <br/>
+    <hr>
+    <div class="form2" id="data">
+        <div>
+            <h2>The Northcap University</h2>
+            <h2>Session 2020-21 Marksheet</h2>
+            <div class="details">
+                Name: <div class="print_details" id="print_name"></div>&emsp;
+
+                Roll No: <div class="print_details" id="roll_no"></div> &emsp;
+
+                Sem: <div class="print_details" id="sem_no"></div> &emsp;
+
+                Branch: <div class="print_details" id="branch_no"></div> &emsp;
+
+            </div><br>
+            <div class="table">
+                <table>
+
+                    <tbody>
+                        <tr>
+                            <td>&emsp14; Course Name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</td>
+                            <td>Grade Obtained &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</td>
+                            <td>Credit Earned </td>
+                        </tr>
+                        <tr>
+                            <td>&emsp14; &emsp14;Course 1:</td>
+                            <td>&emsp14; <div class="print_marks" id="m1"></div>
+                            </td>
+                            <td>&emsp14; <div class="print_marks" id="cr1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&emsp14; &emsp14;Course 2:</td>
+                            <td>&emsp14; <div class="print_marks" id="m2"></div>
+                            </td>
+                            <td>&emsp14; <div class="print_marks" id="cr2"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&emsp14; &emsp14;Course 3:</td>
+                            <td>&emsp14; <div class="print_marks" id="m3"></div>
+                            </td>
+                            <td>&emsp14; <div class="print_marks" id="cr3"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&emsp14; &emsp14;Course 4:</td>
+                            <td>&emsp14; <div class="print_marks" id="m4"></div>
+                            </td>
+                            <td>&emsp14; <div class="print_marks" id="cr4"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&emsp14; &emsp14;Course 5:</td>
+                            <td>&emsp14; <div class="print_marks" id="m5"></div>
+                            </td>
+                            <td>&emsp14; <div class="print_marks" id="cr5"></div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <br>
+
+            </div>
+            <br>
+            <div class="cgpa"></div>
+            CGPA: &emsp14;<div class="print_cgpa" id="cg"></div>
+        </div>
+    </div>
+    </div>
+    <script src="/js/reportcard.js"></script>
+</body>
+
+</html>
