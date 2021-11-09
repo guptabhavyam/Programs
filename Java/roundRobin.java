@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RR{
+public class roundRobin{
     public static void main(String args[]){
         int n, i, tq, count = 0, temp, completion = 0, bt[], wt[], tat[], rem_bt[];
         float awt = 0, atat = 0;
